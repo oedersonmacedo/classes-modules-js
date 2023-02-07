@@ -10,4 +10,4 @@
     - Classes works similarly to constructor functions;
     - It's possible to create a clas hierarchy using the extends keyword;
     - When declaring a constructor in the subclass, it's necessary to invoke the superclass constructor through super() before using the this reference;
-    
+    - 
