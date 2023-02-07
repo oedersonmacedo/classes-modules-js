@@ -1,4 +1,4 @@
-# classes and modules in JavaScript
+# Classes and Modules in JavaScript
 
  - #### Classes
     - The classes are a special type of function that act as a template for creating objects;
