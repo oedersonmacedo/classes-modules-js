@@ -18,4 +18,10 @@
     - Through the * it's possible to import everything that's being exported in a single object;
     - We can also import and export in a standard way using the keyword default;
     - Is the import order relevant? No, because when imported last, hoisting takes places;
-    - 
+ - #### Proxy and Modules
+    - A proxy is capable of intecepting several types of operations on a target object;
+    - There are methods, called trap, for several types of events related to an object such as apply construct, defineProperty,  deleteProperty,  get, getOwnPropertyDescriptor, getPrototypeOf, has, isExtensible, ownKeys, preventExtensions, set e setPrototypeOf;
+    - The set method is invoked when a property is set on the object;
+    - The deleteProperty method is invoked when a property is deleted;
+    - The get method is invoked when a property is accessed;
+    - The Reflect API has the same methods that exist in the Proxy, allowing the execution of different types of operations on the target object;
