@@ -10,4 +10,12 @@
     - Classes works similarly to constructor functions;
     - It's possible to create a clas hierarchy using the extends keyword;
     - When declaring a constructor in the subclass, it's necessary to invoke the superclass constructor through super() before using the this reference;
+ - #### Modules
+    - In ES6, or ECMAScript2015 it was specified in the language itself, based on the concept of import and export;
+    - Through the keyword export it's possible to export any type of data existing inside a module;
+    - To use modules in Node.js, the files must have the .mjs extension in addition to running with the --experimental-modules in older versions of node;
+    - It's possible to use an alias in the import, renaming in which it's being imported;
+    - Through the * it's possible to import everything that's being exported in a single object;
+    - We can also import and export in a standard way using the keyword default;
+    - Is the import order relevant? No, because when imported last, hoisting takes places;
     - 
